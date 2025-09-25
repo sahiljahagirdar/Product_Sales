@@ -1,0 +1,26 @@
+Progress till now:
+1. Understod the objective
+2. Studied all the columns 
+3. Imported the dataset
+4. Did basic checks (Head,tail,shape,descibe,info)
+5. started with EDA (pending)
+6. Checked null values and fixed null values
+7. Performed feature Engineering
+
+
+Upcoming steps:
+1. Encode the columns
+2. Check if scaling is required
+3. Split the data into Train and test
+4. Train the models and evaluate the performance
+5. Tune the models and check the accuracy score
+
+
+MODELS TO USE:
+- My target column is binary classified:
+    1. Logistic Regression
+    2. KNN
+    3. SVM 
+    4. Gradient boost
+    5. Random Forest
+    6. XG boost
