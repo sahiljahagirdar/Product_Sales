@@ -82,4 +82,40 @@ This document Stored all the Preprocessing steps that I performed on the project
             * International
                 - UAE, USA, UK, AUSTRALIA, Singapore, Malaysia, EUROPE
             * Other
-    7. Encoding categorical Columns
+7. Encoding categorical Columns
+    Encoded my target column
+        - High Potential --> 1
+        - Low Potential --> 0
+    Created 2 datasets Label_df and ohe_df 
+        Label_df
+            - Label_df will be used for Tree based models
+            - The dataset contains columns encoded using Label Encoding
+            - Columns required encoding ['Sales_Agent', 'Delivery_Mode', 'Source_grouped', 'Location_grouped']
+        ohe_df
+            - ohe_df dataset will be used for Linear models 
+            - The dataset contains columns encoded using ONE HOT ENCODING 
+            - columns required encoding ['Sales_Agent', 'Delivery_Mode', 'Source_grouped', 'Location_grouped']
+8. seperate target column
+    There are 2 datasets Label_df and ohe_df
+        - Label_df
+            - xl --> Data except target column
+            - yl --> Target column
+        - ohe_df
+            - x0 --> Data except target column
+            - y0 --> Target column
+9. Applied Standard Scaling
+    Applied Standard Scaling on ohe_df (Tree based model don't require Scaling)
+        - columns applied scaling ['Product_ID', 'Month', 'DayOfWeek', 'Hour']
+10. Performed Train test split
+    performed train test split on both dataset Label_df and ohe_df
+        Label_df
+            - x_trainl, x_testl, y_trainl, y_testl
+            - 80% for training and 20% for testing
+        ohe_df
+            - x_train0, x_test0, y_train0, y_test0
+            - 80% for training and 20% for testing
+11. Applied SMOTE on ohe_df
+    performed SMOTE balancing
+        ohe_df
+            - x_train0_sm,y_train0_sm
+
