@@ -1,0 +1,85 @@
+This document Stored all the Preprocessing steps that I performed on the project:
+
+1. Imported Product_sales.csv file
+    * Performed basic check's
+        - head()
+        - tail()
+        - descibe
+        - info
+2. Checked null values 
+    * Columns having null values:
+        - Product_ID
+        - Source
+        - Mobile
+        - Sales_Agent
+        - Location
+3. Five columns having null values
+4. Checked and fixed duplicate values 
+5. Performed EDA to get business insights
+    * Business insights:
+        -
+        -
+        -
+        -
+        -
+6. Started with feature Engineering
+    Steps performed in feature Engineering:
+        1. Dropped Unneccessary Columns:
+            - Mobile, Email [NOT HELPFUL FOR PREDICTION]
+        2. Fixed null values:
+            - My null values were categorical, Replaced null values with MODE 
+        3. Fixed Created column 
+            - Date and time was in single column fixed it with keep seperate columns (MONTH,DAY_OF_WEEK,HOUR,IS_WEEKEND)
+        4. Change Datatype of Product_ID column (float --> int)
+        5. Fixed Source column 
+            - There were many categorical data, Reduced categorical data
+            - Category with [ Website, US Website, Just Dial ] --> Website
+            - Category starting with [ Live Chat ] --> Live Chat
+            - Category with [ Call, Personal Contact ] --> Call_Personal
+            - Category with [ E-Mail Message, E-mail Campaign, CRM form, SMS Campaign ] --> Email_Campaign
+            - Category with [ By Recommendation, Customer Referral, Existing Client, Existing Customer ] --> Referral_Existing
+            - Else --> Other
+            { With this Reduced 29 categories into 6 }
+        6. Fixed Status column
+            - Status column containing many categorical data, Reduced it to High_Potential,Low_Potential
+            - categories present:
+                - Junk Lead
+                - Not Responding
+                - CONVERTED
+                - Just Enquiry
+                - Potential
+                - Long Term
+                - In Progress Positive
+                - In Progress Negative
+                - LOST
+                - Open
+                - converted
+            * High_Potential
+                - Just Enquiry, Potential, Long Term, In Progress Positive, Open, CONVERTED, converted
+            * Low_Potential
+                - Junk Lead, Not Responding, In Progress Negative, LOST
+        7. Fixed Location Columns
+            - Location Column having many categorical data, Reduced it to Major cities, International, Other
+            - categories present:
+                - Other Locations
+                - Bangalore
+                - Chennai
+                - Hyderabad
+                - Delhi
+                - Mumbai
+                - Pune
+                - UAE
+                - Trivandrum
+                - Kolkata
+                - USA
+                - UK 
+                - Singapore
+                - Malaysia
+                - EUROPE
+                - Howrah
+            * Major cities
+                - Bangalore, Chennai, Hyderabad, Delhi, Mumbai, Pune, Trivandrum, Kolkata
+            * International
+                - UAE, USA, UK, AUSTRALIA, Singapore, Malaysia, EUROPE
+            * Other
+    7. Encoding categorical Columns
