@@ -6,19 +6,19 @@ Progress till now:
 5. started with EDA (pending)
 6. Checked null values and fixed null values
 7. Performed feature Engineering
+8. Encoded the columns 
+9. Scaled the required columns 
+10. Performed Train and test on the datasets
+11. Started training Logistic Regression Model and evaluating model 
 
 
 Upcoming steps:
-1. Encode the columns
-2. Check if scaling is required
-3. Split the data into Train and test
-4. Train the models and evaluate the performance
-5. Tune the models and check the accuracy score
+1. Tune the models and check the accuracy score
 
 
 MODELS TO USE:
 - My target column is binary classified:
-    1. Logistic Regression
+    1. Logistic Regression (In Progress)
     2. KNN
     3. SVM 
     4. Gradient boost
