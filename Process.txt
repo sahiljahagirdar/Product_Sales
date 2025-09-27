@@ -10,16 +10,17 @@ Progress till now:
 9. Scaled the required columns 
 10. Performed Train and test on the datasets
 11. Started training Logistic Regression Model and evaluating model 
+12. Started training KNN model and evaluating model
 
 
 Upcoming steps:
-1. Tune the models and check the accuracy score
+1. Train and tune the models and check the accuracy score
 
 
 MODELS TO USE:
 - My target column is binary classified:
     1. Logistic Regression (In Progress)
-    2. KNN
+    2. KNN (In Progress)
     3. SVM 
     4. Gradient boost
     5. Random Forest
