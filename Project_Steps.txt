@@ -118,4 +118,16 @@ This document Stored all the Preprocessing steps that I performed on the project
     performed SMOTE balancing
         ohe_df
             - x_train0_sm,y_train0_sm
+12. Trained Logistic Regression model
+    Used OHE encoding model for training [x0,y0]
+    Tested datasets
+        - Tested the model accuracy using original dataset
+        - Tested on SMOTE dataset 
+        - Tested with class weight Balance
+        - Performed Hyper parameter tuning
+13. Trained KNN model 
+    Used OHE encoding model for training [x0,y0]
+        - Tested using using original dataset
+        - Tested on SMOTE dataset
+        - Performed Hyper parameter tuning
 
