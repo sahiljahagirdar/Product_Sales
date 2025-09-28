@@ -19,9 +19,8 @@ Upcoming steps:
 
 MODELS TO USE:
 - My target column is binary classified:
-    1. Logistic Regression (In Progress)
+    1. Logistic Regression (Done)
     2. KNN (In Progress)
-    3. SVM 
     4. Gradient boost
     5. Random Forest
     6. XG boost
