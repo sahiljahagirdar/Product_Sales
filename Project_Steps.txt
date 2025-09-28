@@ -130,4 +130,9 @@ This document Stored all the Preprocessing steps that I performed on the project
         - Tested using using original dataset
         - Tested on SMOTE dataset
         - Performed Hyper parameter tuning
+14. Trained SVM model
+    Used OHE encoding model for training [x0,y0]
+        - Tested using original dataset 
+        - Tested on SMOTE dataset
+        - 
 
