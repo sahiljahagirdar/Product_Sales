@@ -134,5 +134,5 @@ This document Stored all the Preprocessing steps that I performed on the project
     Used OHE encoding model for training [x0,y0]
         - Tested using original dataset 
         - Tested on SMOTE dataset
-        - 
+        - Hyper parameter tuning 
 

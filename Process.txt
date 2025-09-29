@@ -11,6 +11,7 @@ Progress till now:
 10. Performed Train and test on the datasets
 11. Started training Logistic Regression Model and evaluating model 
 12. Started training KNN model and evaluating model
+13. Started training SVM model and evaluating model
 
 
 Upcoming steps:
@@ -21,6 +22,7 @@ MODELS TO USE:
 - My target column is binary classified:
     1. Logistic Regression (Done)
     2. KNN (In Progress)
+    3. SVM (Done)
     4. Gradient boost
     5. Random Forest
     6. XG boost
