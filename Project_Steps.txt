@@ -135,4 +135,7 @@ This document Stored all the Preprocessing steps that I performed on the project
         - Tested using original dataset 
         - Tested on SMOTE dataset
         - Hyper parameter tuning 
+15. Tommorow start with Training Gradient boost model 
+    Use Label Encoding model for training [xl,yl]
+    
 
